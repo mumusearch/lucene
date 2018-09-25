@@ -1,0 +1,18 @@
+WhitespaceAnalyzer=以空格作为分隔符来分解短语,生成语汇单元
+SimpleAnalyzer=以非字符分割语汇单元，并将语汇单元转化为小写
+StopAnalyzer=以非字符分割语汇单元，并将语汇单元转化为小写 ，并且去除停分词的语汇单元
+StandardAnalyzer=标准分词器
+KeywordAnalyzer=将整个短语作为一个语汇单元
+
+MetaphoneAnalyzer=Metaphone近音词分析器
+PorterStemAnalyzer=词干分词器
+SynonymAnalyzer=同义词分词器
+
+CJKAnalyzer=cjk中文分词器
+SmartChineseAnalyzer=smartcn中文分词器
+
+IKAnalyzer5x=IK中文分词器
+MmsegSimpleAnalyzer=MMSEG简单中文分词器
+MmsegComplexAnalyzer=MMSEG复杂中文分词器
+PaodingAnalyzer=Paoding复杂中文分词器
+

@@ -1,0 +1,225 @@
+2018-09-13 14:38:45,085 [main] [com.kingbase.lucene.commons.indexer.index.IndexBuilding] [DEBUG] - 开始创建索引...............
+ 2018-09-13 14:38:45,100 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2018-09-13 14:38:45,366 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2018-09-13 14:38:45,366 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】中.........
+ 2018-09-13 14:38:45,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 14:38:45,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\file\base
+ 2018-09-13 14:38:45,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 14:38:45,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 14:38:45,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2018-09-13 14:38:45,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {tokenized=false, indexed=docs, name=主键, store=true, type=string}
+ 2018-09-13 14:38:45,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {tokenized=true, indexed=docs_and_freqs_and_positions, name=文件名称, store=true, type=string}
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {tokenized=false, indexed=docs, name=类型, store=true, type=string}
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {tokenized=false, indexed=docs, name=大小, store=true, type=long}
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {tokenized=true, indexed=docs_and_freqs_and_positions, name=内容, store=true, type=text}
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {tokenized=false, indexed=docs, name=属性, store=true, type=string}
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {tokenized=true, indexed=docs_and_freqs_and_positions, name=路径, store=true, type=string}
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】结束.........
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】中.........
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\db\base
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 14:38:45,397 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】结束.........
+ 2018-09-13 14:38:45,412 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2018-09-13 14:39:50,847 [main] [com.kingbase.lucene.commons.indexer.index.IndexBuilding] [DEBUG] - 开始创建索引...............
+ 2018-09-13 14:39:50,941 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2018-09-13 14:39:51,175 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2018-09-13 14:39:51,191 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】中.........
+ 2018-09-13 14:39:51,191 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 14:39:51,191 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\file\base
+ 2018-09-13 14:39:51,191 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 14:39:51,191 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 14:39:51,191 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2018-09-13 14:39:51,206 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {tokenized=false, indexed=docs, name=主键, store=true, type=string}
+ 2018-09-13 14:39:51,206 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {tokenized=true, indexed=docs_and_freqs_and_positions, name=文件名称, store=true, type=string}
+ 2018-09-13 14:39:51,206 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {tokenized=false, indexed=docs, name=类型, store=true, type=string}
+ 2018-09-13 14:39:51,206 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {tokenized=false, indexed=docs, name=大小, store=true, type=long}
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {tokenized=true, indexed=docs_and_freqs_and_positions, name=内容, store=true, type=text}
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {tokenized=false, indexed=docs, name=属性, store=true, type=string}
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {tokenized=true, indexed=docs_and_freqs_and_positions, name=路径, store=true, type=string}
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】结束.........
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】中.........
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\db\base
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】结束.........
+ 2018-09-13 14:39:51,222 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2018-09-13 14:44:34,326 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - try to load dir=D:\projects\IntellijIDEAWorkspace\lucene\target\classes\mmseg
+ 2018-09-13 14:44:34,545 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - chars loaded time=219ms, line=12638, on file=D:\projects\IntellijIDEAWorkspace\lucene\target\classes\mmseg\chars.dic
+ 2018-09-13 14:44:34,888 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - words loaded time=343ms, line=149853, on file=D:\projects\IntellijIDEAWorkspace\lucene\target\classes\mmseg\words.dic
+ 2018-09-13 14:44:34,888 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - load all dic use time=562ms
+ 2018-09-13 14:44:34,904 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - unit loaded time=0ms, line=22, on file=D:\projects\IntellijIDEAWorkspace\lucene\target\classes\mmseg\units.dic
+ 2018-09-13 14:44:46,273 [main] [com.kingbase.lucene.commons.indexer.index.IndexBuilding] [DEBUG] - 开始创建索引...............
+ 2018-09-13 15:47:05,895 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2018-09-13 15:47:06,066 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2018-09-13 15:47:06,066 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】中.........
+ 2018-09-13 15:47:06,066 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 15:47:06,066 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\file\base
+ 2018-09-13 15:47:06,066 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 15:47:06,066 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 15:47:06,066 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {tokenized=false, indexed=docs, name=主键, store=true, type=string}
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {tokenized=true, indexed=docs_and_freqs_and_positions, name=文件名称, store=true, type=string}
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {tokenized=false, indexed=docs, name=类型, store=true, type=string}
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {tokenized=false, indexed=docs, name=大小, store=true, type=long}
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {tokenized=true, indexed=docs_and_freqs_and_positions, name=内容, store=true, type=text}
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {tokenized=false, indexed=docs, name=属性, store=true, type=string}
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {tokenized=true, indexed=docs_and_freqs_and_positions, name=路径, store=true, type=string}
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】结束.........
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】中.........
+ 2018-09-13 15:47:06,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 15:47:06,098 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\db\base
+ 2018-09-13 15:47:06,098 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 15:47:06,098 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 15:47:06,098 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】结束.........
+ 2018-09-13 15:47:06,098 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2018-09-13 20:36:18,224 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2018-09-13 20:36:18,905 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2018-09-13 20:36:18,906 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】中.........
+ 2018-09-13 20:36:18,907 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:36:18,908 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\file\base
+ 2018-09-13 20:36:18,909 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:36:18,910 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:36:18,911 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2018-09-13 20:36:18,922 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {tokenized=false, indexed=docs, name=主键, store=true, type=string}
+ 2018-09-13 20:36:18,923 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {tokenized=true, indexed=docs_and_freqs_and_positions, name=文件名称, store=true, type=string}
+ 2018-09-13 20:36:18,924 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {tokenized=false, indexed=docs, name=类型, store=true, type=string}
+ 2018-09-13 20:36:18,942 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {tokenized=false, indexed=docs, name=大小, store=true, type=long}
+ 2018-09-13 20:36:18,943 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {tokenized=true, indexed=docs_and_freqs_and_positions, name=内容, store=true, type=text}
+ 2018-09-13 20:36:18,944 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {tokenized=false, indexed=docs, name=属性, store=true, type=string}
+ 2018-09-13 20:36:18,944 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {tokenized=true, indexed=docs_and_freqs_and_positions, name=路径, store=true, type=string}
+ 2018-09-13 20:36:18,945 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2018-09-13 20:36:18,946 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】结束.........
+ 2018-09-13 20:36:18,947 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2018-09-13 20:36:18,947 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】中.........
+ 2018-09-13 20:36:18,947 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:36:18,948 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\db\base
+ 2018-09-13 20:36:18,948 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:36:18,949 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:36:18,950 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】结束.........
+ 2018-09-13 20:36:18,951 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2018-09-13 20:38:00,686 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2018-09-13 20:38:00,887 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2018-09-13 20:38:00,917 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】中.........
+ 2018-09-13 20:38:00,918 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:38:00,926 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\file\base
+ 2018-09-13 20:38:00,928 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:38:00,929 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:38:00,930 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2018-09-13 20:38:00,935 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {tokenized=false, indexed=docs, name=主键, store=true, type=string}
+ 2018-09-13 20:38:00,937 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {tokenized=true, indexed=docs_and_freqs_and_positions, name=文件名称, store=true, type=string}
+ 2018-09-13 20:38:00,938 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {tokenized=false, indexed=docs, name=类型, store=true, type=string}
+ 2018-09-13 20:38:00,939 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {tokenized=false, indexed=docs, name=大小, store=true, type=long}
+ 2018-09-13 20:38:00,939 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {tokenized=true, indexed=docs_and_freqs_and_positions, name=内容, store=true, type=text}
+ 2018-09-13 20:38:00,941 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {tokenized=false, indexed=docs, name=属性, store=true, type=string}
+ 2018-09-13 20:38:00,942 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {tokenized=true, indexed=docs_and_freqs_and_positions, name=路径, store=true, type=string}
+ 2018-09-13 20:38:00,947 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2018-09-13 20:38:00,948 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】结束.........
+ 2018-09-13 20:38:00,949 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2018-09-13 20:38:00,949 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】中.........
+ 2018-09-13 20:38:00,950 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:38:00,951 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\db\base
+ 2018-09-13 20:38:00,951 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:38:00,952 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:38:00,953 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】结束.........
+ 2018-09-13 20:38:00,954 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2018-09-13 20:39:57,652 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2018-09-13 20:39:57,976 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2018-09-13 20:39:57,977 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】中.........
+ 2018-09-13 20:39:57,978 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:39:57,979 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\file\base
+ 2018-09-13 20:39:57,980 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:39:57,981 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:39:57,982 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2018-09-13 20:39:57,997 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {tokenized=false, indexed=docs, name=主键, store=true, type=string}
+ 2018-09-13 20:39:57,998 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {tokenized=true, indexed=docs_and_freqs_and_positions, name=文件名称, store=true, type=string}
+ 2018-09-13 20:39:58,000 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {tokenized=false, indexed=docs, name=类型, store=true, type=string}
+ 2018-09-13 20:39:58,001 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {tokenized=false, indexed=docs, name=大小, store=true, type=long}
+ 2018-09-13 20:39:58,079 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {tokenized=true, indexed=docs_and_freqs_and_positions, name=内容, store=true, type=text}
+ 2018-09-13 20:39:58,079 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {tokenized=false, indexed=docs, name=属性, store=true, type=string}
+ 2018-09-13 20:39:58,080 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {tokenized=true, indexed=docs_and_freqs_and_positions, name=路径, store=true, type=string}
+ 2018-09-13 20:39:58,081 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2018-09-13 20:39:58,081 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】结束.........
+ 2018-09-13 20:39:58,082 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2018-09-13 20:39:58,083 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】中.........
+ 2018-09-13 20:39:58,084 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:39:58,084 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\db\base
+ 2018-09-13 20:39:58,084 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:39:58,085 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:39:58,086 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】结束.........
+ 2018-09-13 20:39:58,087 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2018-09-13 20:40:23,277 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2018-09-13 20:40:23,518 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2018-09-13 20:40:23,519 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】中.........
+ 2018-09-13 20:40:23,520 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:40:23,521 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\file\base
+ 2018-09-13 20:40:23,522 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:40:23,523 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:40:23,524 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2018-09-13 20:40:23,535 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {tokenized=false, indexed=docs, name=主键, store=true, type=string}
+ 2018-09-13 20:40:23,536 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {tokenized=true, indexed=docs_and_freqs_and_positions, name=文件名称, store=true, type=string}
+ 2018-09-13 20:40:23,538 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {tokenized=false, indexed=docs, name=类型, store=true, type=string}
+ 2018-09-13 20:40:23,539 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {tokenized=false, indexed=docs, name=大小, store=true, type=long}
+ 2018-09-13 20:40:23,542 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {tokenized=true, indexed=docs_and_freqs_and_positions, name=内容, store=true, type=text}
+ 2018-09-13 20:40:23,542 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {tokenized=false, indexed=docs, name=属性, store=true, type=string}
+ 2018-09-13 20:40:23,543 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {tokenized=true, indexed=docs_and_freqs_and_positions, name=路径, store=true, type=string}
+ 2018-09-13 20:40:23,543 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2018-09-13 20:40:23,544 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】结束.........
+ 2018-09-13 20:40:23,544 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2018-09-13 20:40:23,544 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】中.........
+ 2018-09-13 20:40:23,545 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:40:23,547 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\db\base
+ 2018-09-13 20:40:23,547 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:40:23,548 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:40:23,549 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】结束.........
+ 2018-09-13 20:40:23,550 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2018-09-13 20:40:36,615 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2018-09-13 20:40:36,977 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2018-09-13 20:40:36,977 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】中.........
+ 2018-09-13 20:40:36,978 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:40:36,979 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\file\base
+ 2018-09-13 20:40:36,979 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:40:36,980 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:40:36,981 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2018-09-13 20:40:37,003 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {tokenized=false, indexed=docs, name=主键, store=true, type=string}
+ 2018-09-13 20:40:37,004 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {tokenized=true, indexed=docs_and_freqs_and_positions, name=文件名称, store=true, type=string}
+ 2018-09-13 20:40:37,005 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {tokenized=false, indexed=docs, name=类型, store=true, type=string}
+ 2018-09-13 20:40:37,007 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {tokenized=false, indexed=docs, name=大小, store=true, type=long}
+ 2018-09-13 20:40:37,013 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {tokenized=true, indexed=docs_and_freqs_and_positions, name=内容, store=true, type=text}
+ 2018-09-13 20:40:37,014 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {tokenized=false, indexed=docs, name=属性, store=true, type=string}
+ 2018-09-13 20:40:37,014 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {tokenized=true, indexed=docs_and_freqs_and_positions, name=路径, store=true, type=string}
+ 2018-09-13 20:40:37,015 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2018-09-13 20:40:37,015 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_file_base】结束.........
+ 2018-09-13 20:40:37,016 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2018-09-13 20:40:37,016 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】中.........
+ 2018-09-13 20:40:37,017 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 version 5.5.1
+ 2018-09-13 20:40:37,017 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory e:\workspacelucene\lucene\src\main\webapp\indexes\lucene\db\base
+ 2018-09-13 20:40:37,018 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 directory_type fs
+ 2018-09-13 20:40:37,018 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 analyzer standardanalyzer
+ 2018-09-13 20:40:37,018 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_db_base】结束.........
+ 2018-09-13 20:40:37,019 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 

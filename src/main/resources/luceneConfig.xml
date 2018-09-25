@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+                            lucene的配置信息
+version 配置的Lucene版本号
+directory 配置的Lucene索引存储路径(1绝对路径，2相对路径（取项目的路径）)
+directory_type ram fs(默认ram)
+analyzer 分词器StandardAnalyzer、SimpleAnalyzer、WhitespaceAnalyzer、StopAnalyzer
+fields 字段的集合
+fields 单个字段的域  
+    name 字段的中文名称
+	type 类型 int long float double string text
+	store 存储 true false
+	boost 域加权因子(默认1.0)
+	indexed NONE(Not indexed),
+	        DOCS(Only documents are indexed)
+	        DOCS_AND_FREQS(Only documents and term frequencies are indexed)
+	        DOCS_AND_FREQS_AND_POSITIONS(Indexes documents, frequencies and positions)
+	        DOCS_AND_FREQS_AND_POSITIONS_AND_OFFSETS(Indexes documents, frequencies, positions and offsets)
+	tokenized 分词 true false
+ -->
+<lucene>
+    <config name="lucene_file_base">
+        <version>5.5.1</version>
+        <directory>indexes/lucene_file_base</directory>
+        <directory_type>fs</directory_type>
+        <analyzer>StandardAnalyzer</analyzer>
+        <fields>
+            <field name="id">
+                <name>主键</name>
+                <type>string</type>
+                <store>true</store>
+                <tokenized>false</tokenized>
+                <indexed>DOCS</indexed>
+            </field>
+            <field name="fileName">
+                <name>文件名称</name>
+                <type>string</type>
+                <store>true</store>
+                <tokenized>true</tokenized>
+                <indexed>DOCS_AND_FREQS_AND_POSITIONS</indexed>
+            </field>
+            <field name="type">
+                <name>类型</name>
+                <type>string</type>
+                <store>true</store>
+                <tokenized>false</tokenized>
+                <indexed>DOCS</indexed>
+            </field>
+            <field name="size">
+                <name>大小</name>
+                <type>long</type>
+                <store>true</store>
+                <tokenized>false</tokenized>
+                <indexed>DOCS</indexed>
+            </field>
+            <field name="content">
+                <name>内容</name>
+                <type>text</type>
+                <store>true</store>
+                <tokenized>true</tokenized>
+                <indexed>DOCS_AND_FREQS_AND_POSITIONS</indexed>
+            </field>
+            <field name="attribute">
+                <name>属性</name>
+                <type>string</type>
+                <store>true</store>
+                <tokenized>false</tokenized>
+                <indexed>DOCS</indexed>
+            </field>
+            <field name="path">
+                <name>路径</name>
+                <type>string</type>
+                <store>true</store>
+                <tokenized>true</tokenized>
+                <indexed>DOCS_AND_FREQS_AND_POSITIONS</indexed>
+            </field>
+        </fields>
+    </config>
+
+    <!-- 数据库分词器 -->
+    <config name="lucene_db_base">
+        <version>5.5.1</version>
+        <directory>E:\workspaceLucene\lucene\src\main\webapp\indexes\lucene\db\base</directory>
+        <directory_type>fs</directory_type>
+        <analyzer>StandardAnalyzer</analyzer>
+    </config>
+</lucene>

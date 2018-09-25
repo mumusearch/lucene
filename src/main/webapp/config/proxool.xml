@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<something-else-entirely>
+	<proxool>
+		<alias>myData</alias>
+		<driver-url>jdbc:kingbase://127.0.0.1:54321/LGAN
+		</driver-url>
+		<driver-class>com.kingbase.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="system"/>
+			<property name="password" value="krms"/>
+		</driver-properties>
+		<maximum-connection-count>10</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<house-keeping-sleep-time>300000</house-keeping-sleep-time>
+		<!-- <maximum-active-time>300000</maximum-active-time> -->
+		<simultaneous-build-throttle>100</simultaneous-build-throttle>
+		<prototype-count>10</prototype-count>
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select current_date</house-keeping-test-sql>
+	</proxool>
+</something-else-entirely>

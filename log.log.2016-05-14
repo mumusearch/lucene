@@ -1,0 +1,130 @@
+2016-05-14 12:08:41,536 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2016-05-14 12:08:41,726 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2016-05-14 12:08:41,727 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_directory_fs】中.........
+ 2016-05-14 12:08:41,727 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 VERSION 5.5.1
+ 2016-05-14 12:08:41,728 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY LUCENE/DIRECTORY/FS
+ 2016-05-14 12:08:41,729 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY_TYPE FS
+ 2016-05-14 12:08:41,729 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 ANALYZER STANDARDANALYZER
+ 2016-05-14 12:08:41,730 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2016-05-14 12:08:41,733 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 12:08:41,734 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 12:08:41,737 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 12:08:41,738 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {STORE=TRUE, TOKENIZED=FALSE, TYPE=LONG, INDEXED=DOCS}
+ 2016-05-14 12:08:41,739 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {STORE=TRUE, TOKENIZED=TRUE, TYPE=TEXT, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 12:08:41,739 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 12:08:41,739 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 12:08:41,740 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2016-05-14 12:08:41,741 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_directory_fs】结束.........
+ 2016-05-14 12:08:41,741 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2016-05-14 12:08:41,743 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_mmseg_simple】中.........
+ 2016-05-14 12:08:41,743 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 VERSION 5.5.1
+ 2016-05-14 12:08:41,743 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY LUCENE/MMSEG/SIMPLE
+ 2016-05-14 12:08:41,744 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY_TYPE FS
+ 2016-05-14 12:08:41,744 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 ANALYZER MMSEGSIMPLEANALYZER
+ 2016-05-14 12:08:41,745 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2016-05-14 12:08:41,752 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 12:08:41,753 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 12:08:41,754 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {STORE=TRUE, TOKENIZED=TRUE, TYPE=TEXT, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 12:08:41,755 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2016-05-14 12:08:41,756 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_mmseg_simple】结束.........
+ 2016-05-14 12:08:41,756 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2016-05-14 17:12:20,813 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - try to load dir=E:\workspaceLucene\lucene\target\test-classes\mmseg
+ 2016-05-14 17:12:20,875 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - chars loaded time=57ms, line=12638, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\chars.dic
+ 2016-05-14 17:12:21,286 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - words loaded time=409ms, line=149853, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\words.dic
+ 2016-05-14 17:12:21,287 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - load all dic use time=469ms
+ 2016-05-14 17:12:21,374 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - unit loaded time=86ms, line=22, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\units.dic
+ 2016-05-14 17:12:29,503 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - try to load dir=E:\workspaceLucene\lucene\target\test-classes\mmseg
+ 2016-05-14 17:12:29,560 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - chars loaded time=51ms, line=12638, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\chars.dic
+ 2016-05-14 17:12:29,977 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - words loaded time=414ms, line=149853, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\words.dic
+ 2016-05-14 17:12:29,978 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - load all dic use time=469ms
+ 2016-05-14 17:12:30,064 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - unit loaded time=85ms, line=22, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\units.dic
+ 2016-05-14 17:34:14,703 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - config paoding analysis from: E:\workspaceLucene\lucene\target\test-classes\paoding\paoding-analysis.properties;E:\workspaceLucene\paoding\target\classes\paoding-analysis-default.properties;E:\workspaceLucene\paoding\target\classes\paoding-analyzer.properties;E:\workspaceLucene\paoding\target\classes\paoding-dic-home.properties;E:\workspaceLucene\paoding\target\classes\dic\paoding-dic-names.properties;E:\workspaceLucene\paoding\target\classes\paoding-knives.properties;E:\workspaceLucene\paoding\target\classes\paoding-knives-user.properties
+ 2016-05-14 17:34:14,713 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.CJKKnife
+ 2016-05-14 17:34:14,716 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.LetterKnife
+ 2016-05-14 17:34:14,731 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.NumberKnife
+ 2016-05-14 17:34:15,145 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.CJKKnife
+ 2016-05-14 17:34:15,145 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.LetterKnife
+ 2016-05-14 17:34:15,146 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.NumberKnife
+ 2016-05-14 17:34:15,148 [main] [net.paoding.analysis.knife.FileDictionaries] [INFO] - loading dictionaries from E:\workspaceLucene\paoding\target\classes\dic
+ 2016-05-14 17:34:15,708 [main] [net.paoding.analysis.knife.FileDictionaries] [INFO] - loaded success!
+ 2016-05-14 18:31:30,551 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - config paoding analysis from: E:\workspaceLucene\lucene\target\test-classes\paoding\paoding-analysis.properties;E:\workspaceLucene\paoding\target\classes\paoding-analysis-default.properties;E:\workspaceLucene\paoding\target\classes\paoding-analyzer.properties;E:\workspaceLucene\paoding\target\classes\paoding-dic-home.properties;E:\workspaceLucene\paoding\target\classes\dic\paoding-dic-names.properties;E:\workspaceLucene\paoding\target\classes\paoding-knives.properties;E:\workspaceLucene\paoding\target\classes\paoding-knives-user.properties
+ 2016-05-14 18:31:30,560 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.CJKKnife
+ 2016-05-14 18:31:30,759 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.LetterKnife
+ 2016-05-14 18:31:30,763 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.NumberKnife
+ 2016-05-14 18:37:41,255 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - config paoding analysis from: E:\workspaceLucene\lucene\target\test-classes\paoding\paoding-analysis.properties;E:\workspaceLucene\paoding\target\classes\paoding-analysis-default.properties;E:\workspaceLucene\paoding\target\classes\paoding-analyzer.properties;E:\workspaceLucene\paoding\target\classes\paoding-dic-home.properties;E:\workspaceLucene\paoding\target\classes\dic\paoding-dic-names.properties;E:\workspaceLucene\paoding\target\classes\paoding-knives.properties;E:\workspaceLucene\paoding\target\classes\paoding-knives-user.properties
+ 2016-05-14 18:37:41,263 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.CJKKnife
+ 2016-05-14 18:37:41,266 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.LetterKnife
+ 2016-05-14 18:37:41,268 [main] [net.paoding.analysis.knife.PaodingMaker] [INFO] - add knike: net.paoding.analysis.knife.NumberKnife
+ 2016-05-14 18:48:20,641 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2016-05-14 18:48:20,795 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2016-05-14 18:48:20,796 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_directory_fs】中.........
+ 2016-05-14 18:48:20,797 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 VERSION 5.5.1
+ 2016-05-14 18:48:20,797 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY LUCENE/DIRECTORY/FS
+ 2016-05-14 18:48:20,801 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY_TYPE FS
+ 2016-05-14 18:48:20,802 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 ANALYZER STANDARDANALYZER
+ 2016-05-14 18:48:20,803 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2016-05-14 18:48:20,807 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 18:48:20,808 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:20,810 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 18:48:20,811 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {STORE=TRUE, TOKENIZED=FALSE, TYPE=LONG, INDEXED=DOCS}
+ 2016-05-14 18:48:20,812 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {STORE=TRUE, TOKENIZED=TRUE, TYPE=TEXT, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:20,812 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 18:48:20,813 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:20,813 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2016-05-14 18:48:20,814 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_directory_fs】结束.........
+ 2016-05-14 18:48:20,815 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2016-05-14 18:48:20,815 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_mmseg_simple】中.........
+ 2016-05-14 18:48:20,824 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 VERSION 5.5.1
+ 2016-05-14 18:48:20,825 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY LUCENE/MMSEG/SIMPLE
+ 2016-05-14 18:48:20,825 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY_TYPE FS
+ 2016-05-14 18:48:20,825 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 ANALYZER MMSEGSIMPLEANALYZER
+ 2016-05-14 18:48:20,826 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2016-05-14 18:48:20,826 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 18:48:20,827 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:20,827 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {STORE=TRUE, TOKENIZED=TRUE, TYPE=TEXT, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:20,828 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2016-05-14 18:48:20,828 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_mmseg_simple】结束.........
+ 2016-05-14 18:48:20,828 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 2016-05-14 18:48:20,867 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - try to load dir=E:\workspaceLucene\lucene\target\test-classes\mmseg
+ 2016-05-14 18:48:20,925 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - chars loaded time=56ms, line=12638, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\chars.dic
+ 2016-05-14 18:48:21,367 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - words loaded time=440ms, line=149853, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\words.dic
+ 2016-05-14 18:48:21,368 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - load all dic use time=499ms
+ 2016-05-14 18:48:21,370 [main] [com.kingbase.lucene.commons.analyzer.chinese.mmseg4j.core.Dictionary] [DEBUG] - unit loaded time=1ms, line=22, on file=E:\workspaceLucene\lucene\target\test-classes\mmseg\units.dic
+ 2016-05-14 18:48:21,735 [main] [com.kingbase.lucene.commons.indexer.index.DocumentBuilding] [DEBUG] - 建立索引Document<stored,indexed,tokenized,omitNorms<fileName:中国> stored,indexed,omitNorms,indexOptions=DOCS<id:1> indexed,tokenized<content:java.io.StringReader@1832929>>
+ 2016-05-14 18:48:31,224 [main] [com.kingbase.lucene.commons.configuration.ConfigInitialization] [DEBUG] - 加载lucen配置文件【/luceneConfig.xml】
+ 2016-05-14 18:48:31,353 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取LUCENE配置信息中.........
+ 2016-05-14 18:48:31,353 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_directory_fs】中.........
+ 2016-05-14 18:48:31,354 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 VERSION 5.5.1
+ 2016-05-14 18:48:31,355 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY LUCENE/DIRECTORY/FS
+ 2016-05-14 18:48:31,355 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY_TYPE FS
+ 2016-05-14 18:48:31,356 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 ANALYZER STANDARDANALYZER
+ 2016-05-14 18:48:31,357 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2016-05-14 18:48:31,367 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 18:48:31,367 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:31,368 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段type {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 18:48:31,375 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段size {STORE=TRUE, TOKENIZED=FALSE, TYPE=LONG, INDEXED=DOCS}
+ 2016-05-14 18:48:31,376 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {STORE=TRUE, TOKENIZED=TRUE, TYPE=TEXT, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:31,377 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段attribute {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 18:48:31,377 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段path {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:31,378 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2016-05-14 18:48:31,378 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_directory_fs】结束.........
+ 2016-05-14 18:48:31,379 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 
+
+ 2016-05-14 18:48:31,379 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_mmseg_simple】中.........
+ 2016-05-14 18:48:31,380 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 VERSION 5.5.1
+ 2016-05-14 18:48:31,380 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY LUCENE/MMSEG/SIMPLE
+ 2016-05-14 18:48:31,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 DIRECTORY_TYPE FS
+ 2016-05-14 18:48:31,381 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 配置信息 ANALYZER MMSEGSIMPLEANALYZER
+ 2016-05-14 18:48:31,382 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 开始解析字段集合FIELDS
+ 2016-05-14 18:48:31,382 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段id {STORE=TRUE, TOKENIZED=FALSE, TYPE=STRING, INDEXED=DOCS}
+ 2016-05-14 18:48:31,383 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段fileName {STORE=TRUE, TOKENIZED=TRUE, TYPE=STRING, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:31,383 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 字段content {STORE=TRUE, TOKENIZED=TRUE, TYPE=TEXT, INDEXED=DOCS_AND_FREQS_AND_POSITIONS}
+ 2016-05-14 18:48:31,384 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 解析字段集合FIELDS结束
+ 2016-05-14 18:48:31,384 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - 读取配置【lucene_mmseg_simple】结束.........
+ 2016-05-14 18:48:31,384 [main] [com.kingbase.lucene.commons.configuration.ParseConfig] [DEBUG] - LUCENE配置信息读取完毕.........
+
+ 
